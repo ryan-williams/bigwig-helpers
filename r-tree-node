@@ -16,7 +16,7 @@ else
   exit 1
 fi
 
-source "$(dirname "${BASH_SOURCE[0]}")/.helpers-rc"
+source "$(dirname "${BASH_SOURCE[0]}")/helpers"
 
 node_offset="$offset"
 let next_indent_level=$indent_level+1

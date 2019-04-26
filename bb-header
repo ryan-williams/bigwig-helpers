@@ -22,7 +22,7 @@ shift
 
 offset=0
 
-source "$(dirname "${BASH_SOURCE[0]}")/.helpers-rc"
+source "$(dirname "${BASH_SOURCE[0]}")/helpers"
 
 # Header
 
